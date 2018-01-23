@@ -1,0 +1,1 @@
+/$yourpath/example/data/train.h5.batch1
