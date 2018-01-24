@@ -10,6 +10,7 @@ This work is based on [caffe-cnn](https://github.com/gifford-lab/caffe-cnn/), an
 	
 	```
 	python HOCNN.py example/train.tsv example/train_target.tsv example/data/train.h5 -k 2
+	python HOCNN.py example/test.tsv example/test_target.tsv example/data/test.h5 -k 2
 	```
 + Type the following for details on other optional arguments:
 	
