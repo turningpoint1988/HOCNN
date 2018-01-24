@@ -1,5 +1,5 @@
-# HOCNN
-High-order convolutional neural network for predicting DNA-protein binding sites
+## High-order convolutional neural network for predicting DNA-protein binding sites (HOCNN)
+
 This work is based on [caffe-cnn](https://github.com/gifford-lab/caffe-cnn/), and please refer to it for more details.
 
 ## Prerequisite
