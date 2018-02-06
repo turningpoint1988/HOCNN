@@ -1,1 +1,1 @@
-/$yourpath/example/data/train.h5.batch1
+/$your_path/example/data/train.h5.batch1
