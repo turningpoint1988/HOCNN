@@ -43,10 +43,10 @@ layer {
 	pad_h: 0
 	pad_w: 12
 	weight_filler {
-	  type: "xavier" # initialize the filters from a Gaussian
+	  type: "xavier" 
     }
 	bias_filler {
-      type: "constant" # initialize the biases to zero (0)
+      type: "constant" 
       value: 0
     }
   }
@@ -73,10 +73,10 @@ layer {
 	pad_h: 0
 	pad_w: 6
 	weight_filler {
-	  type: "xavier" # initialize the filters from a Gaussian
+	  type: "xavier" 
     }
 	bias_filler {
-      type: "constant" # initialize the biases to zero (0)
+      type: "constant" 
       value: 0
     }
   }
@@ -103,10 +103,10 @@ layer {
 	pad_h: 0
 	pad_w: 4
 	weight_filler {
-	  type: "xavier" # initialize the filters from a Gaussian
+	  type: "xavier" 
     }
 	bias_filler {
-      type: "constant" # initialize the biases to zero (0)
+      type: "constant" 
       value: 0
     }
   }
@@ -132,10 +132,9 @@ layer{
   top: "pool1"
   pooling_param {
     	pool: MAX
-	kernel_h: 1
-	kernel_w: 102
+	global_pooling: true
 	stride_h: 1
-	stride_w: 2     # step two pixels (in the bottom blob) between pooling regions
+	stride_w: 1   
   }
 }
 layer {
