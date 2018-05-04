@@ -77,11 +77,10 @@ layer{
   bottom: "conv1"
   top: "pool1"
   pooling_param {
-    pool: MAX
-	kernel_h: 1
-	kernel_w: 102
+    	pool: MAX
+	global_pooling: true
 	stride_h: 1
-	stride_w: 2     # step two pixels (in the bottom blob) between pooling regions
+	stride_w: 1
   }
 }
 
